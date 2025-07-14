@@ -28,4 +28,4 @@ jobs:
         with:
           context: . # Busca el Dockerfile en el directorio actual
           push: true
-          tags: ghcr.io/${{ github.repository.lower }}:latest # Define la etiqueta de la imagen en minúsculas (nombre-repo:latest)
+          tags: ghcr.io/herramientas-docker2025/web-colaborativa-docker:latest # Nombre válido en minúsculas
